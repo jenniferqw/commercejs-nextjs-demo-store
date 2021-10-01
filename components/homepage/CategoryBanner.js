@@ -46,12 +46,12 @@ class CategoryBanner extends Component {
   }
 }
 
-CategoryBanner.propTypes = {
-  categories: PropTypes.arrayOf(PropTypes.object),
-};
-
 CategoryBanner.defaultProps = {
   categories: [],
+};
+
+CategoryBanner.propTypes = {
+  categories: PropTypes.arrayOf(PropTypes.object),
 };
 
 export default connect(state => state)(CategoryBanner);
