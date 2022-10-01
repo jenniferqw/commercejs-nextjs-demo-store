@@ -103,6 +103,22 @@ export default class ClientReview extends Component {
           </div>
         </div>
       </div>
-    );
-  }
+    );ont-size-title font-weight-medium mb-2 mb-sm-0">
+                4.3 stars from 10 reviews
+              </p>
+            </div>
+            <ReviewList reviews={reviews}>
+              <button
+                onClick={this.handleOpen}
+                className="text-center bg-transparent w-100 h-72 px-3 text-decoration-underline"
+              >
+  }ont-size-title font-weight-medium mb-2 mb-sm-0">
+                4.3 stars from 10 reviews
+              </p>
+            </div>
+            <ReviewList reviews={reviews}>
+              <button
+                onClick={this.handleOpen}
+                className="text-center bg-transparent w-100 h-72 px-3 text-decoration-underline"
+              >
 }
