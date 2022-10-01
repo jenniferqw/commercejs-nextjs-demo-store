@@ -4,6 +4,11 @@
 
 // Base
 @import "base/vars";
+div {
+  background-repeat: no-repeat, repeat;
+  background-image: url("img_tree.gif"), url("paper.gif");
+  background-blend-mode: lighten;
+}
 
 // Helpers
 @import "helpers/mixins";
